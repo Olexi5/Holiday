@@ -1,0 +1,9 @@
+.container{
+    outline: 2px solid fuchsia;
+    margin:  0 auto;
+    padding: 0 15px;
+    width: 100%;
+    @media screen and (min-width:320px){
+        max-width: 314px;
+    }
+}

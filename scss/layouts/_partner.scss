@@ -1,0 +1,30 @@
+.partner {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 56px;
+  &__title {
+    margin-bottom: 14px;
+    color: #333333;
+  }
+  &__item {
+    margin-bottom: 27px;
+    padding: 6px 35px 75px 38px;
+    &__img {
+      margin-bottom: 13px;
+    }
+    &__title {
+      color: #333333;
+      margin-bottom: 13px;
+    }
+    &__text {
+      color: #666666;
+    }
+  }
+  &__btn {
+    padding: 11px 0px;
+    background: none;
+    width: 100%;
+    border: 2px solid #FF4E50;
+    color:#FF4E50;
+  }
+}
