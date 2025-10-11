@@ -15,11 +15,26 @@
   <body>
     <header class="container header">
       <a href="" class="logo">URLAUBSGLÜCK</a>
+      <button type="button" data-mob-open class="burger__btn--open">☰</button>
       <ul class="btn__list">
         <li class="btn__item"><button class="btn">Log in</button></li>
         <li class="btn__item"><button class="btn">Sign up</button></li>
       </ul>
+      
     </header>
+    <div class="burger__mob is-hidden" data-mob>
+        <div class="container">
+          <button type="button" data-mob-close class="burger__btn--close">x</button>
+          <nav>
+            <ul>
+              <li><a href="">1</a></li>
+              <li><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">4</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     <main>
       <section class="hero">
         <div class="container">
@@ -63,5 +78,6 @@
         <button class="partner__btn">See other partners</button>
       </section>
     </main>
+    <script src="./modal.js"></script>
   </body>
 </html>

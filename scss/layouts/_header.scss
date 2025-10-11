@@ -1,13 +1,12 @@
 .header {
   display: flex;
   flex-direction: column-reverse;
-  gap: 112px;
   align-items: center;
   position: absolute;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  @media screen and (min-width:768px){
+  @media screen and (min-width: 768px) {
     flex-direction: row;
     top: 36px;
     justify-content: space-between;
@@ -15,6 +14,7 @@
 }
 .btn__list {
   display: flex;
+  margin-bottom: 112px;
 }
 .btn {
   padding: 11px 5px;
@@ -41,4 +41,23 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
+}
+.burger__btn--open {
+  display: inline-block;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.burger__mob {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+}
+.is-hidden {
+  display: none;
 }
